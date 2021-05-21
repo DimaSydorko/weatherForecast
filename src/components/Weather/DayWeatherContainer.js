@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
-import { getDaysWeather, getForecastHeadline, getIsFetching, getSearchResult } from '../../redux/dayWeather-selector'
+import { getDaysWeather, getForecastHeadline, getIsFetching } from '../../redux/dayWeather-selector'
 import DayWeather from './DayWeather'
 import styles from './Weather.module.css'
 

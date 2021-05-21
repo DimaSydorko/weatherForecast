@@ -27,15 +27,14 @@ let chooseIMG = (str) => {
 }
 
 let dateFunc = (dateStr) => {
-  let months = [
-    "January", "February", "March", 
-    "April", "May", "June", 
-    "July", "August", "September", 
-    "October", "November", "December"];
+    const dataTime = new Date(
+      dateStr.slice(0, 4), 
+      dateStr.slice(5, 7)-1, 
+      dateStr.slice(8, 10)
+    )
+
   return <div className={styles.date}>
-    {dateStr.slice(8, 10)}/
-    {months[dateStr.slice(5, 7)-1]}/ 
-    {dateStr.slice(0, 4)}
+    {dataTime.toDateString()}
   </div>
 }
 

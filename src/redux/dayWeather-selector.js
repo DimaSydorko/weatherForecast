@@ -17,14 +17,6 @@ export const getForecastHeadline = (state) => {
 else return null
 }
 
-export const getCntOfDays = (state) => {
-  return state.dayWeather.cntOfDays
-}
-
-export const getCityName = (state) => {
-  return state.dayWeather.cityName
-}
-
 export const getIsFetching = (state) => {
   return state.dayWeather.isFetching
 }
