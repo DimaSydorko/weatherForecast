@@ -1,10 +1,21 @@
 .BG{
-  background:url('imeges/BG_rain.jpg') no-repeat;
-  width: 100vw;
+  background:url('imeges/BG_rain.jpg') no-repeat center local;
   height: 100vh;
+  width: 100vw;
   background-size: cover;
   font-family: 'Balsamiq Sans', cursive;
   background-attachment: fixed;
+}
+
+@media (max-height: 900px) {
+  .BG{
+    background:url('imeges/BG_rain.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+    font-family: 'Balsamiq Sans', cursive;
+    background-attachment: fixed;
+  }
 }
 
 .NotFound{
@@ -18,5 +29,3 @@
   padding: 10px;
   box-shadow: -6px 34px 97px -10px rgba(1, 3, 3, 0.89);
 }
-
-
