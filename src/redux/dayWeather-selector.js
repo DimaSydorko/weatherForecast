@@ -24,3 +24,7 @@ export const getIsFetching = (state) => {
 export const getSearchResult = (state) => {
   return state.dayWeather.searchInProgres
 }
+
+export const getErrorSearch = (state) => {
+  return state.dayWeather.error
+}

@@ -1,7 +1,10 @@
 .BG{
   background:url('imeges/BG_rain.jpg') no-repeat;
-  height: 940px;
-  font-family: 'Balsamiq Sans', cursive; 
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Balsamiq Sans', cursive;
+  background-attachment: fixed;
 }
 
 .NotFound{
