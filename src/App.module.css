@@ -1,20 +1,18 @@
 .BG{
   background:url('imeges/BG_rain.jpg') no-repeat center local;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
-  background-size: cover;
   font-family: 'Balsamiq Sans', cursive;
-  background-attachment: fixed;
 }
 
 @media (max-height: 900px) {
   .BG{
-    background:url('imeges/BG_rain.jpg') no-repeat center fixed;
+    background:url('imeges/BG_rain.jpg') no-repeat center fixed cover;
     background-size: cover;
     height: auto;
     width: 100vw;
     font-family: 'Balsamiq Sans', cursive;
-    background-attachment: fixed;
   }
 }
 
