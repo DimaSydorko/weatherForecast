@@ -6,8 +6,8 @@ import SearchLocationResult from './searchResult'
 
 const validationSchema = yup.object().shape({
   searchCity: yup.string()
-    .max(20, 'Too long name')
-    .required('Required'),
+    // .max(20, 'Too long name')
+    // .required('Required'),
 })
 
 let Header = ({search, searchResults, daysWeatherRequest}) => {
