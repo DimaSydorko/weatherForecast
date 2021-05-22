@@ -10,8 +10,28 @@
   .BG{
     background:url('imeges/BG_rain.jpg') no-repeat center fixed cover;
     background-size: cover;
-    height: auto;
     width: 100vw;
+    height: 200vh;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+}
+
+@media (max-height: 600px) {
+  .BG{
+    background:url('imeges/BG_rain.jpg') no-repeat center fixed cover;
+    background-size: cover;
+    width: 140vw;
+    height: 300vh;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+}
+
+@media (max-width: 500px) {
+  .BG{
+    background:url('imeges/BG_rain.jpg') no-repeat center fixed cover;
+    background-size: cover;
+    width: 140vw;
+    height: 400vh;
     font-family: 'Balsamiq Sans', cursive;
   }
 }
